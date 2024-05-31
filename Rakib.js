@@ -86,7 +86,11 @@ let squareRoot = Math.sqrt(9);
 x = 10;
 y = 5;
 
-alert(true); // ?
+if (x > y) {
+  
+  alert(true);
+  
+}
 
 // Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
 
